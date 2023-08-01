@@ -7,7 +7,9 @@ const Form = ({ setWord, getPhotoData }) => {
         placeholder="e.g.) cat"
         onChange={(e) => setWord(e.target.value)}
       />
-      <button type="submit" onClick={getPhotoData}>Search</button>
+      <button type="submit" onClick={getPhotoData}>
+        Search
+      </button>
     </form>
   );
 };

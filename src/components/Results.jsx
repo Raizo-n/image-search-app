@@ -1,7 +1,7 @@
 const Results = ({ image }) => {
   return (
     <div className="results">
-      {image.map((singleData, index) =>
+      {image.map((singleData, index) => (
         <>
           <a href={singleData.links.html} key={index}>
             <img
@@ -10,7 +10,7 @@ const Results = ({ image }) => {
             />
           </a>
         </>
-      )}
+      ))}
     </div>
   );
 };

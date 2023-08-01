@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <Title />
       <Form setWord={setWord} getPhotoData={getPhotoData} />
-      <Results image={image}/>
+      <Results image={image} />
     </div>
   );
 }
