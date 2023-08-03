@@ -7,7 +7,7 @@ import Results from "./components/Results";
 import.meta.env.VITE_REACT_APP_ACCESS_KEY;
 
 function App() {
-  const [word, setWord] = useState("cat");
+  const [word, setWord] = useState("");
   const [image, setImage] = useState([]);
 
   const getPhotoData = (e) => {

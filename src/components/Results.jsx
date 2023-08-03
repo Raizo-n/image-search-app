@@ -1,16 +1,16 @@
 const Results = ({ image }) => {
   return (
     <div className="results">
-      {image.map((singleData, index) => (
+      {image.map((singleData, index) =>
         <>
-          <a key={index} href={singleData.links.html}>
+          <a href={singleData.links.html} key={index}>
             <img
               src={singleData.urls.regular}
               alt={singleData.alt_description}
             />
           </a>
         </>
-      ))}
+      )}
     </div>
   );
 };
